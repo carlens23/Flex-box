@@ -1,0 +1,33 @@
+.container {
+        background-color: #ccc;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: stretch;
+}
+        
+.item {
+        background-color: #333;
+        color: #fff;
+        padding: 15px;
+        margin: 5px;
+        height: 30px;
+        flex: 1 1 300px;
+}
+    
+.item1 {
+
+}
+
+.item2 {
+
+}
+
+.item3 {
+            flex-shrink: 3;
+} 
+
+.item4 {
+
+}
